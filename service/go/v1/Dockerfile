@@ -1,4 +1,4 @@
-FROM golang:1.10-alpine as builder
+FROM golang:1.11-alpine as builder
 LABEL maintainer="will835559313@163.com"
 COPY . /app
 WORKDIR /app
